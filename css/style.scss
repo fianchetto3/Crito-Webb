@@ -105,6 +105,11 @@ header{
                     &:hover{
                         color: #666666;
                     }
+
+                     @media (max-width: 1200px){
+                        display: none;
+
+                    }
                 }
             }
         }

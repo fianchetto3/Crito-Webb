@@ -94,6 +94,11 @@ header .container .top-menu .social-media a {
 header .container .top-menu .social-media a:hover {
   color: #666666;
 }
+@media (max-width: 1200px) {
+  header .container .top-menu .social-media a {
+    display: none;
+  }
+}
 header .container .main-menu {
   display: flex;
   justify-content: space-between;
