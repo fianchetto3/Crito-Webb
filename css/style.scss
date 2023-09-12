@@ -55,6 +55,28 @@ html, body{
     }
 }
 
+.btn-black {
+    background-color:#191919;
+    border: 1px solid #191919;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16;
+    border-radius: 30px;
+
+    i{
+        margin-left: 8px;
+        font-size: 0.9em;
+    }
+
+    &:hover{
+        background-color: #F9D783;
+        border: 1px solid #F9D783;
+        color: #f0efe9;
+    }
+}
+
 
 
 header{
@@ -325,6 +347,8 @@ header{
             
             .advice-text{
                 
+             
+
 
               h3{
                 font-family: 'DM Sans', sans-serif;
@@ -353,5 +377,169 @@ header{
 
 }
 
+.about-company{
+    padding-top: 100px ;
 
+
+
+    .container{
+        display: flex;  
+        gap: 150px;
+        
+
+
+        
+        .text-box{
+            display: flex; 
+            flex-direction: column;
+            padding: 70px;
+            margin-bottom: 100px;
+            gap: 15px ;
+            
+                h3{
+                    color: #F94D1C;
+                    font-size: 18px;
+                    
+                }
+
+                h2{
+                    font-size: 45;
+                    font-family: 'DM Sans', sans-serif;
+
+                }
+
+                 .about-company-buttons{
+                    
+                    display: grid;
+                    grid-template-columns: 1fr 1fr ;
+                    
+                    
+                 i{
+                    font-size: 35px;
+                    padding-top: 15px;
+                    gap: 5px;
+                 }
+                
+                 a{
+                    text-decoration: none;
+                    color:#191919;
+
+                    p{
+                       
+                    }
+                  
+                 }
+                }
+
+        
+        }
+
+                    .samantha{
+               display: flex;
+                flex-wrap: wrap;
+            .info-box{
+                position: relative;
+                top: -200px;
+               left: -100px;
+                padding: 30px;
+                background-color: #BEEBFF;
+                padding-left: -100px;
+                width: 70%;
+               
+
+                h3{
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: bold;
+                    font-size: 20px;
+                    
+                }
+                p{
+                   font-size: medium;
+                  
+                }
+
+            }
+
+                    }       
+
+
+    }
+
+}
  
+
+.our-services{
+    background-color: #F0EFE9;
+    padding-top: 100px;
+    .container{
+
+        .headline{
+            padding-bottom: 70px;
+            h3{
+                color: #F94D1C;
+                font-size: 18px;
+
+            }
+            h2{
+                font-family: 'DM Sans', sans-serif; 
+                font-size: 45px;
+                font-weight: bold;
+
+
+            }
+
+        }
+
+        .btn-browse-services{
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+        }
+        .squares{
+          
+            display: flex;
+            gap: 15px;
+
+
+
+
+            .business-advice{
+               
+                background-color: white ;
+
+            }
+
+            .startup-advice{
+                background-color: #F9D783;
+
+
+
+            }
+            .financial-advice{
+                background-color: white;
+
+
+
+            }
+            .risk-advice{
+                background-color: white;
+
+
+            }
+
+
+
+
+
+
+
+        }
+
+
+    }
+
+
+
+
+}

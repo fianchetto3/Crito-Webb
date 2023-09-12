@@ -47,6 +47,26 @@ html, body {
   color: #f0efe9;
 }
 
+.btn-black {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 16;
+  border-radius: 30px;
+}
+.btn-black i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-black:hover {
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #f0efe9;
+}
+
 header {
   background-color: #f0efe9;
   padding: 10px;
@@ -277,4 +297,100 @@ header .container .main-menu .btn-login {
 .showcase-features .container .Advice-container .advice-text i {
   padding-bottom: 20px;
   font-size: 25px;
+}
+
+.about-company {
+  padding-top: 100px;
+}
+.about-company .container {
+  display: flex;
+  gap: 150px;
+}
+.about-company .container .text-box {
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  margin-bottom: 100px;
+  gap: 15px;
+}
+.about-company .container .text-box h3 {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.about-company .container .text-box h2 {
+  font-size: 45;
+  font-family: "DM Sans", sans-serif;
+}
+.about-company .container .text-box .about-company-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about-company .container .text-box .about-company-buttons i {
+  font-size: 35px;
+  padding-top: 15px;
+  gap: 5px;
+}
+.about-company .container .text-box .about-company-buttons a {
+  text-decoration: none;
+  color: #191919;
+}
+.about-company .container .samantha {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-company .container .samantha .info-box {
+  position: relative;
+  top: -200px;
+  left: -100px;
+  padding: 30px;
+  background-color: #BEEBFF;
+  padding-left: -100px;
+  width: 70%;
+}
+.about-company .container .samantha .info-box h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.about-company .container .samantha .info-box p {
+  font-size: medium;
+}
+
+.our-services {
+  background-color: #F0EFE9;
+  padding-top: 100px;
+}
+.our-services .container .headline {
+  padding-bottom: 70px;
+}
+.our-services .container .headline h3 {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.our-services .container .headline h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+.our-services .container .btn-browse-services {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.our-services .container .squares {
+  display: flex;
+  gap: 15px;
+}
+.our-services .container .squares .business-advice {
+  background-color: white;
+}
+.our-services .container .squares .startup-advice {
+  background-color: #F9D783;
+}
+.our-services .container .squares .financial-advice {
+  background-color: white;
+}
+.our-services .container .squares .risk-advice {
+  background-color: white;
 }
