@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&family=Inter:wght@300;400;500;700;900&display=swap');
+
+
+
 
 html, body{
     color: #191919;
@@ -272,48 +276,74 @@ header{
         }
 
 .showcase-features{
-
+    //  features left side block
     .container{
-        
-        padding-bottom: 100px;
+      
         display: flex;
         justify-content: center;
-        border: 1px solid black;
+        border: 1px solid #DAD9D3;
 
 
         .features{
-            padding-top: 50px;
             display: flex;
             flex-direction: column;
+            padding: 50px;
+            padding-top: 90px;
 
 
             h2{
                 font-size: 45px;
                 font-weight: bold;
-
+                font-family: 'DM Sans', sans-serif;
             }
             p{
                 color: #F94D1C;
                 font-size: 18px;
                 font-weight: medium;
             }
+
+             a{
+                padding-top: 50px;
+                padding-left: 10px;
+             }   
+
+            button{
+                
+                padding: 12px 200px;
+                
+            }
+
         }
-
+        // grid display
         .Advice-container{
-
+            padding: 70px;
+            margin: 10px;
+            gap: 60px;
             display: grid;
             grid-template-columns: 1fr 1fr ;
             
             
-
-            
             .advice-text{
                 
 
+              h3{
+                font-family: 'DM Sans', sans-serif;
+                font-size: 22px;
+                font-weight: bold;
+              }
 
-             
+              p{
+               color:#191919;
+              }
+
+              i{
+                padding-bottom: 20px;
+                font-size: 25px;
+                
+              }
+
             }
-            
+        
 
 
         }
