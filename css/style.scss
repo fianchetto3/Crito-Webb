@@ -73,7 +73,7 @@ html, body{
     &:hover{
         background-color: #F9D783;
         border: 1px solid #F9D783;
-        color: #f0efe9;
+        color:#191919;
     }
 }
 
@@ -471,6 +471,7 @@ header{
 .our-services{
     background-color: #F0EFE9;
     padding-top: 100px;
+    padding-bottom: 70px;
     .container{
 
         .headline{
@@ -495,42 +496,165 @@ header{
             display: flex;
             justify-content: center;
             text-decoration: none;
+           
         }
         .squares{
           
             display: flex;
             gap: 15px;
+            
+            h3{
+                font-family: 'DM Sans', sans-serif;
+                font-size: 22px;
+                font-weight: bold;
+                padding-left: 15px;
 
+            }
 
-
+            p{
+                padding: 20px  ;
+            }
 
             .business-advice{
-               
+               display: flex;
+               justify-content: center;
+               flex-direction: column;       
                 background-color: white ;
+                padding: 10px;
+                padding-top: 100px;
+                padding-bottom: 40px;
+                
+                     
+
+
+                    .btn-advice{
+                        display:flex;
+                        justify-content:end;
+                        padding-right: 20px;
+                       
+                        i{
+                            color: white;
+                        }
+
+
+                        .square-button{
+                            background-color: #191919;
+                            border-radius: 60%;
+                            border: none;   
+                            height: 60px;
+                            width: 60px;
+                            &:hover{
+                                background-color:#F94D1C;
+                                border: 1px solid #F94D1C;
+                                color:#191919;
+                            }
+                        }
+                      
+                    }
 
             }
 
             .startup-advice{
                 background-color: #F9D783;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 10px;
+                padding-top: 100px;
+                padding-bottom: 40px;
 
+                .btn-advice{
+                    display:flex;
+                    justify-content:end;
+                    padding-right: 20px;
+
+
+                    i{
+                        color: #191919;
+                    }
+
+                        .square-button{
+                            background-color: #ffffff;
+                            border:none;
+                            border-radius: 60%;  
+                            height: 60px;
+                            width: 60px;
+                            &:hover{
+                                background-color:#F94D1C;
+                                border: 1px solid #F94D1C;
+                                color:#191919;
+                            }
+                        }
+                }
 
 
             }
             .financial-advice{
                 background-color: white;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 100px;
+                padding-bottom: 40px;
 
+                .btn-advice{
+                    display:flex;
+                    justify-content:end;
+                    padding-right: 20px;
 
+                    i{
+                        color: white;
+                    }
+
+                    .square-button{
+                        background-color: #191919;
+                        border:none;
+                        border-radius: 60%;  
+                        height: 60px;
+                        width: 60px;
+                        &:hover{
+                            background-color:#F94D1C;
+                            border: 1px solid #F94D1C;
+                            color:#191919;
+                        }
+                    }
+                }
 
             }
             .risk-advice{
                 background-color: white;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 100px;
+                padding-bottom: 40px;
 
+                .btn-advice{
+                    display:flex;
+                    justify-content:end;
+                    padding-right: 20px;
+
+                    i{
+                        color: white;
+                    }
+
+                    .square-button{
+                        background-color: #191919;
+                        border:none;
+                        border-radius: 60%;  
+                        height: 60px;
+                        width: 60px;
+                        &:hover{
+                            background-color:#F94D1C;
+                            border: 1px solid #F94D1C;
+                            color:#191919;
+                        }
+                    }
+                }
 
             }
 
-
-
-
+       
 
 
 

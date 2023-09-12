@@ -64,7 +64,7 @@ html, body {
 .btn-black:hover {
   background-color: #F9D783;
   border: 1px solid #F9D783;
-  color: #f0efe9;
+  color: #191919;
 }
 
 header {
@@ -359,6 +359,7 @@ header .container .main-menu .btn-login {
 .our-services {
   background-color: #F0EFE9;
   padding-top: 100px;
+  padding-bottom: 70px;
 }
 .our-services .container .headline {
   padding-bottom: 70px;
@@ -382,15 +383,126 @@ header .container .main-menu .btn-login {
   display: flex;
   gap: 15px;
 }
+.our-services .container .squares h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.our-services .container .squares p {
+  padding: 20px;
+}
 .our-services .container .squares .business-advice {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-color: white;
+  padding: 10px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.our-services .container .squares .business-advice .btn-advice {
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+.our-services .container .squares .business-advice .btn-advice i {
+  color: white;
+}
+.our-services .container .squares .business-advice .btn-advice .square-button {
+  background-color: #191919;
+  border-radius: 60%;
+  border: none;
+  height: 60px;
+  width: 60px;
+}
+.our-services .container .squares .business-advice .btn-advice .square-button:hover {
+  background-color: #F94D1C;
+  border: 1px solid #F94D1C;
+  color: #191919;
 }
 .our-services .container .squares .startup-advice {
   background-color: #F9D783;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.our-services .container .squares .startup-advice .btn-advice {
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+.our-services .container .squares .startup-advice .btn-advice i {
+  color: #191919;
+}
+.our-services .container .squares .startup-advice .btn-advice .square-button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 60%;
+  height: 60px;
+  width: 60px;
+}
+.our-services .container .squares .startup-advice .btn-advice .square-button:hover {
+  background-color: #F94D1C;
+  border: 1px solid #F94D1C;
+  color: #191919;
 }
 .our-services .container .squares .financial-advice {
   background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.our-services .container .squares .financial-advice .btn-advice {
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+.our-services .container .squares .financial-advice .btn-advice i {
+  color: white;
+}
+.our-services .container .squares .financial-advice .btn-advice .square-button {
+  background-color: #191919;
+  border: none;
+  border-radius: 60%;
+  height: 60px;
+  width: 60px;
+}
+.our-services .container .squares .financial-advice .btn-advice .square-button:hover {
+  background-color: #F94D1C;
+  border: 1px solid #F94D1C;
+  color: #191919;
 }
 .our-services .container .squares .risk-advice {
   background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.our-services .container .squares .risk-advice .btn-advice {
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+}
+.our-services .container .squares .risk-advice .btn-advice i {
+  color: white;
+}
+.our-services .container .squares .risk-advice .btn-advice .square-button {
+  background-color: #191919;
+  border: none;
+  border-radius: 60%;
+  height: 60px;
+  width: 60px;
+}
+.our-services .container .squares .risk-advice .btn-advice .square-button:hover {
+  background-color: #F94D1C;
+  border: 1px solid #F94D1C;
+  color: #191919;
 }
