@@ -556,6 +556,7 @@ header .container .main-menu .btn-login {
 }
 
 .choose-us {
+  background-image: linear-gradient(to right, white 0%, white 50%, white 75%, rgb(184, 184, 184) 100%);
   padding-top: 100px;
 }
 .choose-us .container {
@@ -673,7 +674,7 @@ header .container .main-menu .btn-login {
 .team-members {
   padding-top: 100px;
   background-color: #F0D082;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 .team-members .container .loading-dots {
   display: flex;
@@ -727,7 +728,130 @@ header .container .main-menu .btn-login {
 .testimonial .container {
   background-color: white;
 }
+.testimonial .container .review-button a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
+.testimonial .container .headline {
+  padding-top: 100px;
+  text-align: center;
+}
+.testimonial .container .headline h3 {
+  color: #F94D1C;
+  font-size: 18px;
+  font-weight: medium;
+}
 .testimonial .container .reviews {
+  padding: 150px;
+  padding-bottom: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+.testimonial .container .reviews i {
+  color: #F94D1C;
+  font-size: 13px;
+  margin-right: 5px;
+}
+.testimonial .container .reviews .profile {
+  display: flex;
+}
+.testimonial .container .reviews .profile .profile-title p {
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: -1px;
+}
+.testimonial .container .reviews .profile .profile-title .client-name {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.testimonial .container .reviews .profile .profile-title .client-titel {
+  color: #F94D1C;
+}
+
+.article-news {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.article-news .container .loading-dots {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.article-news .container .dots {
+  height: 10px;
+  width: 10px;
+  background-color: #979797;
+  border-radius: 60%;
+  cursor: pointer;
+}
+.article-news .container .dots.one {
+  background-color: #191919;
+}
+.article-news .container .headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.article-news .container .headline .title h3 {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.article-news .container .headline .browse-team a button {
+  border: 1px solid #191919;
+  padding: 15px 50px;
+}
+.article-news .container .article-grid-news {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+.article-news .container .article-grid-news .article-text {
+  padding-top: 25px;
+}
+.article-news .container .article-grid-news .article-text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.article-news .container .article-grid-news .article-image {
+  position: relative;
+  display: inline-block;
+}
+.article-news .container .article-grid-news .article-image .date-box {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #F0D082;
+  padding: 10px;
+  width: 50px;
+  height: 80px;
+}
+
+.signup {
+  background-color: #F0EFE9;
+}
+.signup .container {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.signup .container .search-subscribe {
+  display: flex;
+}
+.signup .container .search-subscribe a button {
+  margin-top: 10px;
+}
+.signup .container .search-subscribe form input {
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
 }
