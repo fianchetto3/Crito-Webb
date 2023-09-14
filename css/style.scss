@@ -1536,30 +1536,30 @@ footer{
 }
        
 .info-cards{
-     .container{
-           display: flex;
-           justify-content: center; 
-            
-        .visit-us-cards{
-            
-            .inner-card{
-                display: flex;
-                align-items: center;
 
-                .icon{
+    .container{
 
+        .cards{
+            display: flex;
+            justify-content: center;
+            align-items: ;
+            .visit{
+
+                .headline{
+
+                    
                 }
 
                 .text{
-                    display: flex;
-                    flex-direction: column;
-                }
 
+
+                }
             }
 
         }
 
-     }
+    }
+
 }
 
 

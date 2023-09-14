@@ -1127,15 +1127,7 @@ footer .container .nav-wrapper .nav-items a {
   justify-content: center;
 }
 
-.info-cards .container {
+.info-cards .container .cards {
   display: flex;
   justify-content: center;
-}
-.info-cards .container .visit-us-cards .inner-card {
-  display: flex;
-  align-items: center;
-}
-.info-cards .container .visit-us-cards .inner-card .text {
-  display: flex;
-  flex-direction: column;
 }
