@@ -855,3 +855,58 @@ header .container .main-menu .btn-login {
   border-radius: 20px;
   border: none;
 }
+
+footer {
+  background-color: #0E1021;
+  border-bottom: 1px solid #DAD9D3;
+}
+footer .container {
+  padding-bottom: 60px;
+}
+footer .container .nav-container {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+footer .container .footer-logo {
+  color: #DAD9D3;
+  margin-right: 50px;
+}
+footer .container .footer-logo .logo-text {
+  padding-top: 20px;
+}
+footer .container .nav-wrapper .nav-title {
+  color: white;
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+footer .container .nav-wrapper .nav-items {
+  display: flex;
+  flex-direction: column;
+}
+footer .container .nav-wrapper .nav-items a {
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #DAD9D3;
+}
+
+.bottom-footer {
+  background-color: #0E1021;
+  border: none;
+}
+.bottom-footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.bottom-footer .container .copy-right-text p {
+  color: #DAD9D3;
+}
+.bottom-footer .container .footer-social-media a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
