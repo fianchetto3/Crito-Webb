@@ -1127,7 +1127,120 @@ footer .container .nav-wrapper .nav-items a {
   justify-content: center;
 }
 
+.info-cards .container {
+  padding-top: 100px;
+}
 .info-cards .container .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.info-cards .container .cards .visit {
+  border: solid #DAD9D3 1px;
+  display: flex;
+  gap: 30px;
+  padding: 45px 65px;
+}
+.info-cards .container .cards .visit .headline {
+  margin-top: 10px;
+}
+.info-cards .container .cards .visit .headline i {
+  font-size: 35px;
+}
+.info-cards .container .cards .visit .text {
+  margin-left: 15px;
+}
+.info-cards .container .cards .visit .text p {
+  margin-bottom: 0px;
+}
+.info-cards .container .cards .call {
+  display: flex;
+  gap: 30px;
+  border: solid #DAD9D3 1px;
+  padding: 45px 65px;
+}
+.info-cards .container .cards .call .headline {
+  margin-top: 10px;
+}
+.info-cards .container .cards .call .headline i {
+  font-size: 30px;
+}
+.info-cards .container .cards .call .text {
+  margin-left: 15px;
+}
+.info-cards .container .cards .call .text p {
+  margin-bottom: 0px;
+}
+.info-cards .container .cards .email {
+  display: flex;
+  border: solid #DAD9D3 1px;
+  gap: 30px;
+  padding: 45px 65px;
+}
+.info-cards .container .cards .email .headline {
+  margin-top: 10px;
+}
+.info-cards .container .cards .email .headline i {
+  font-size: 30px;
+}
+.info-cards .container .cards .email .text {
+  margin-left: 15px;
+}
+.info-cards .container .cards .email .text p {
+  margin-bottom: 0px;
+}
+
+.message-us {
+  padding-top: 100px;
+}
+.message-us .container {
+  padding: 70px;
+  padding-bottom: 120px;
+  background-color: #f0efe9;
+}
+.message-us .container .message-box .headline {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
+  margin-bottom: 25px;
+}
+.message-us .container .message-box .search-bars {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.message-us .container .message-box .search-bars .name-bar input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+}
+.message-us .container .message-box .search-bars .email-bar input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+}
+.message-us .container .message-box .search-bars .message-bar input {
+  padding: 15px;
+  padding-bottom: 100px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  text-align: left;
+}
+.message-us .container .send-btn {
+  padding-top: 55px;
+  display: block;
+  text-align: center;
+}
+.message-us .container .send-btn a .btn-yellow {
+  width: 100%;
+}
+
+.map {
+  padding-top: 100px;
+}
+.map .map-img img {
+  width: 100%;
 }

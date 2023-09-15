@@ -85,8 +85,6 @@ html, body{
     }
 }
 
-
-
 .header-home{
     background-color: #f0efe9;
     padding: 10px;
@@ -215,14 +213,11 @@ html, body{
 .showcase{
     background-color: #f0efe9;
 
-
-
      .container{
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        
         .content{
             padding-top: 40px;
             padding-bottom: 40px;
@@ -510,7 +505,6 @@ html, body{
 
 }
  
-
 .our-services{
     background-color: #F0EFE9;
     padding-top: 100px;
@@ -746,14 +740,10 @@ html, body{
                       padding: 0px;
                       
                 }          
-    
                 display: flex;
                 flex-direction: column;
-                
-
                 .headline{
                     padding-bottom: 50px;
-                    
                     h3{
                         color: #F94D1C;     
                         font-size: 18px;    
@@ -765,7 +755,6 @@ html, body{
                         margin-right: 40px;
                     }
                  }
-
                             .reasons-child{
                             
                                 display: flex;
@@ -795,14 +784,7 @@ html, body{
                                 }
                             }
 
-                
-  
-                    
-
-            }
-
-
-                                    
+            }         
             .image-choose-us{
                 
                     @media (max-width: 1024px) {
@@ -1538,22 +1520,77 @@ footer{
 .info-cards{
 
     .container{
-
+           padding-top: 100px;
+         
         .cards{
-            display: flex;
-            justify-content: center;
-            align-items: ;
-            .visit{
-
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px; 
+            .visit{ 
+                border: solid #DAD9D3 1px;
+                display: flex;
+                gap:30px;
+                padding: 45px 65px;
                 .headline{
-
-                    
+                    margin-top: 10px;
+                    i{
+                        font-size: 35px;
+                    }
                 }
 
                 .text{
-
-
+                    margin-left: 15px;
+                    
+                    
+                        p{
+                            margin-bottom: 0px;
+                        }
                 }
+            }
+            .call{
+                display: flex;
+                gap:30px;
+                border: solid #DAD9D3 1px;
+                padding: 45px 65px;
+
+                .headline{
+                    margin-top: 10px;
+                         
+                    i{
+                        font-size: 30px;
+                    }
+                }
+                .text{
+                    margin-left: 15px;
+
+
+                    p{
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+            .email{
+                display: flex;
+                border: solid #DAD9D3 1px;
+                gap:30px;
+                padding: 45px 65px;
+
+                .headline{
+                    margin-top: 10px;   
+                     
+                    i{
+                        font-size: 30px;
+                    }
+                }
+                .text{  
+                    margin-left: 15px;
+
+                    p{
+                        margin-bottom: 0px;
+                    }
+                }
+
             }
 
         }
@@ -1561,6 +1598,91 @@ footer{
     }
 
 }
+
+.message-us{
+    padding-top: 100px;
+    .container{
+        padding: 70px;
+        padding-bottom: 120px;
+        background-color: #f0efe9;
+        
+        .message-box{
+            
+            .headline{
+                display: flex;
+                justify-content: center;
+                padding-top: 100px;
+                margin-bottom: 25px;
+
+            }
+        
+            .search-bars{
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+
+
+                .name-bar{
+                    input{
+                        width: 100%;
+                        padding: 15px;
+                        border-radius: 20px;
+                        border: none;
+                    }
+                }
+
+                .email-bar{
+                    input{
+                        width: 100%;
+                        padding: 15px;
+                        border-radius: 20px;
+                        border: none;
+                    }
+
+                }
+
+                .message-bar{
+                   
+                    input{
+                        padding: 15px;
+                        padding-bottom: 100px;
+                        width: 100%;
+                        border-radius: 20px;
+                        border: none;
+                        text-align: left;
+                    }
+}
+                }   
+            }
+
+            .send-btn{
+                padding-top: 55px;
+                display: block;
+                text-align: center;
+
+                    a{
+                        .btn-yellow{
+                            width: 100%;
+                        }
+                    }
+            }
+
+        }
+
+    }
+
+.map{
+    padding-top: 100px;
+    .map-img{
+        
+        img{
+            width: 100%;
+        }
+    }
+
+}
+
+
 
 
 
