@@ -1054,6 +1054,7 @@ html h3, body h3 {
   padding: 10px;
   border-radius: 20px;
   border: none;
+  outline: none;
 }
 
 footer {
@@ -1364,12 +1365,14 @@ footer .container .nav-wrapper .nav-items a {
   padding: 15px;
   border-radius: 20px;
   border: none;
+  outline: none;
 }
 .message-us .container .message-box .search-bars .email-bar input {
   width: 100%;
   padding: 15px;
   border-radius: 20px;
   border: none;
+  outline: none;
 }
 .message-us .container .message-box .search-bars .message-bar input {
   padding: 15px;
@@ -1378,6 +1381,7 @@ footer .container .nav-wrapper .nav-items a {
   border-radius: 20px;
   border: none;
   text-align: left;
+  outline: none;
 }
 .message-us .container .send-btn {
   padding-top: 55px;
