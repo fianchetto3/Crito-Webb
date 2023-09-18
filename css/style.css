@@ -355,8 +355,7 @@ html h3, body h3 {
 .about-company .container .text-box {
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;
-  gap: 15px;
+  gap: 30px;
 }
 .about-company .container .text-box h3 {
   color: #F94D1C;
@@ -367,17 +366,30 @@ html h3, body h3 {
   font-family: "DM Sans", sans-serif;
 }
 .about-company .container .text-box .about-company-buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 1199px) {
+  .about-company .container .text-box .about-company-buttons {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .about-company .container .text-box .about-company-buttons i {
   font-size: 35px;
   padding-top: 15px;
+  padding-right: 20px;
   gap: 5px;
 }
 .about-company .container .text-box .about-company-buttons a {
   text-decoration: none;
   color: #191919;
+}
+.about-company .container .text-box .about-company-buttons .btn-black {
+  padding: 15px 45px;
 }
 .about-company .container .samantha {
   display: flex;
@@ -391,11 +403,27 @@ html h3, body h3 {
 .about-company .container .samantha .info-box {
   position: relative;
   top: -200px;
-  left: -100px;
+  left: -112px;
   padding: 30px;
   background-color: #BEEBFF;
   padding-left: -100px;
   width: 70%;
+}
+@media (max-width: 1440px) {
+  .about-company .container .samantha .info-box {
+    left: 5px;
+  }
+}
+.about-company .container .samantha .info-box .founder-name {
+  display: flex;
+}
+.about-company .container .samantha .info-box .founder-name p {
+  color: #F94D1C;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 0px;
 }
 .about-company .container .samantha .info-box h3 {
   font-family: "DM Sans", sans-serif;
@@ -592,6 +620,11 @@ html h3, body h3 {
   width: 53%;
   height: 70%;
 }
+@media (max-width: 1400px) {
+  .choose-us .grey-background {
+    display: none;
+  }
+}
 .choose-us .container {
   display: flex;
 }
@@ -746,7 +779,14 @@ html h3, body h3 {
     width: 100%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .team-members .container .members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 1399px) {
   .team-members .container .members {
     display: flex;
     flex-direction: column;
@@ -901,6 +941,13 @@ html h3, body h3 {
     flex-direction: column;
   }
 }
+@media (max-width: 1399px) {
+  .article-news .container .article-grid-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .article-news .container .article-grid-news .article-text {
   padding-top: 25px;
 }
@@ -959,6 +1006,12 @@ html h3, body h3 {
   .signup .container {
     display: block;
     padding: 0px;
+  }
+}
+@media (max-width: 630px) {
+  .signup .container {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 1024px) {
@@ -1026,7 +1079,7 @@ footer .container .nav-container {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
 }
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   footer .container .nav-container {
     display: flex;
     flex-direction: column;
@@ -1175,6 +1228,11 @@ footer .container .nav-wrapper .nav-items a {
 .headline-connect .connect-lines {
   position: absolute;
 }
+@media (max-width: 768px) {
+  .headline-connect .connect-lines {
+    display: none;
+  }
+}
 .headline-connect .container {
   padding-bottom: 70px;
 }
@@ -1189,6 +1247,20 @@ footer .container .nav-wrapper .nav-items a {
   justify-content: center;
 }
 
+@media (max-width: 374px) {
+  .info-cards {
+    border: none;
+  }
+  .info-cards p {
+    font-size: 12px;
+  }
+  .info-cards h3 {
+    font-size: 20px;
+  }
+  .info-cards i {
+    display: none;
+  }
+}
 .info-cards .container {
   padding-top: 100px;
 }
@@ -1196,6 +1268,12 @@ footer .container .nav-wrapper .nav-items a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+}
+@media (max-width: 1199px) {
+  .info-cards .container .cards {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .info-cards .container .cards .visit {
   border: solid #DAD9D3 1px;
@@ -1260,11 +1338,21 @@ footer .container .nav-wrapper .nav-items a {
   padding-bottom: 120px;
   background-color: #f0efe9;
 }
+@media (max-width: 440px) {
+  .message-us .container {
+    padding: 5px;
+  }
+}
 .message-us .container .message-box .headline {
   display: flex;
   justify-content: center;
   padding-top: 100px;
   margin-bottom: 25px;
+}
+@media (max-width: 600px) {
+  .message-us .container .message-box .headline h2 {
+    font-size: 20px;
+  }
 }
 .message-us .container .message-box .search-bars {
   gap: 20px;

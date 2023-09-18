@@ -294,7 +294,6 @@ html, body{
 
  }
 
-// 5 logos under section showcase
  .Logos{
     padding-top: 50px;
     padding-bottom: 70px;
@@ -307,14 +306,9 @@ html, body{
         }
        
         }
-
 .showcase-features{
     //  features left side block
-
-    
-
     .container{
-      
         display: flex;
         justify-content: center;
         border: 1px solid #DAD9D3;
@@ -322,8 +316,6 @@ html, body{
 
             border: none;
          }
-
-
         .features{
             display: flex;
             flex-direction: column;
@@ -332,11 +324,7 @@ html, body{
             @media (max-width: 768px){
                   display: none;          
 
-            }
-                                    
-    
-
-                        
+            }        
             h2{
                 font-size: 45px;
                 font-weight: bold;
@@ -351,23 +339,17 @@ html, body{
                 font-size: 18px;
                 font-weight: medium;
             }
-
              a{
                 padding-top: 50px;
                 padding-left: 10px;
              }   
-
             button{
-                
                 padding: 12px 200px;
                 @media (max-width: 1024px) {
 
                    padding: 12px 50px;
                  }
-
-
             }
-
         }
         // grid display
         .Advice-container{
@@ -376,109 +358,78 @@ html, body{
             gap: 60px;
             display: grid;
             grid-template-columns: 1fr 1fr ;
-
             @media (max-width: 425px) {
-
                 padding: 0px;
              }
-
-                
-        
-                
-            
             .advice-text{
-                
-             
-
-
               h3{
                 font-family: 'DM Sans', sans-serif;
                 font-size: 22px;
                 font-weight: bold;
               }
-
               p{
                color:#191919;
               }
-
               i{
                 padding-bottom: 20px;
                 font-size: 25px;
-                
               }
-
             }
-        
-
-
         }
-
-
     }
-
 }
 
 .about-company{
     padding-top: 100px ;
-
-
-
     .container{
         display: flex;  
         gap: 150px;
-        
-     
-
-        
         .text-box{
             display: flex; 
             flex-direction: column;
-         
-            margin-bottom: 100px;
-            gap: 15px ;
-          
-            
+            gap: 30px ;
                 h3{
                     color: #F94D1C;
                     font-size: 18px;
                     
                 }
-
                 h2{
                     font-size: 45;
                     font-family: 'DM Sans', sans-serif;
-
                 }
 
                  .about-company-buttons{
-                    
-                    display: grid;
-                    grid-template-columns: 1fr 1fr ;
-                    
+                    padding-top: 50px;
+                    display: flex;
+                    justify-content: space-around;
+                    @media (max-width: 1199px){
+                        padding: 20px;
+                        display: flex;
+                        flex-direction: column; 
+                        align-items: center;
+                    }
                     
                  i{
                     font-size: 35px;
                     padding-top: 15px;
+                    padding-right: 20px;
                     gap: 5px;
                  }
                 
                  a{
                     text-decoration: none;
                     color:#191919;
-
-                 
-                  
+                 }
+                 .btn-black{
+                    padding: 15px 45px;
                  }
                 }
-
-        
         }
 
-                    .samantha{
-               display: flex;
+                .samantha{
+                 display: flex;
                 flex-wrap: wrap;
                 @media (max-width: 1024px) {
-
                    display: none;
                  }
 
@@ -486,12 +437,28 @@ html, body{
             .info-box{
                 position: relative;
                 top: -200px;
-                left: -100px;
+                left: -112px;
                 padding: 30px;
                 background-color: #BEEBFF;
                 padding-left: -100px;
                 width: 70%;
-               
+                @media (max-width: 1440px){
+                    left: 5px;
+                             
+                  
+                }
+                
+                .founder-name{
+                    display: flex;
+                    p{
+                        color: #F94D1C;
+                        font-family: 'DM Sans', sans-serif; 
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-left: 5px;
+                        margin-bottom: 0px;
+                    }
+                }
 
                 h3{
                     font-family: 'DM Sans', sans-serif;
@@ -530,54 +497,40 @@ html, body{
 
 
     .container{
-
-
-        
         @media (min-width: 425px){
            padding: auto;
         }
-
         .headline{
             padding-bottom: 70px;
             h3{
                 color: #F94D1C;
                 font-size: 18px;
-
             }
             h2{
                 font-family: 'DM Sans', sans-serif; 
                 font-size: 45px;
                 font-weight: bold;
-
-
             }
 
         }
-
         .btn-browse-services{
             padding-top: 50px;
             display: flex;
             justify-content: center;
             text-decoration: none;
-           
         }
         .squares{
-          
             display: flex;
             gap: 15px;
-
             @media (max-width: 1023px) {
-
                 display: flex;
                 flex-direction: column;
              }
-            
             h3{
                 font-family: 'DM Sans', sans-serif;
                 font-size: 22px;
                 font-weight: bold;
                 padding-left: 15px;
-
             }
 
             p{
@@ -592,10 +545,6 @@ html, body{
                 padding: 10px;
                 padding-top: 100px;
                 padding-bottom: 40px;
-                
-                     
-
-
                     .btn-advice{
                         display:flex;
                         justify-content:end;
@@ -604,8 +553,6 @@ html, body{
                         i{
                             color: white;
                         }
-
-
                         .square-button{
                             background-color: #191919;
                             border-radius: 60%;
@@ -636,7 +583,6 @@ html, body{
                     display:flex;
                     justify-content:end;
                     padding-right: 20px;
-
 
                     i{
                         color: #191919;
@@ -748,6 +694,9 @@ html, body{
             z-index: -1;
             width: 53%;
             height: 70%;
+            @media (max-width: 1400px){
+                display: none;
+            }
         }
         .container{
             
@@ -933,7 +882,12 @@ html, body{
                 width: 100%;
             }
 
-            @media (max-width: 768px){
+            @media (max-width: 1024px){
+                display: flex;
+                flex-direction: column; 
+                align-items: center;
+            }
+            @media (max-width: 1399px){
                 display: flex;
                 flex-direction: column; 
                 align-items: center;
@@ -1053,6 +1007,7 @@ html, body{
                 margin-right: 5px;
             }
 
+
             .profile{
                 @media (max-width: 1024px){
              
@@ -1107,8 +1062,6 @@ html, body{
             justify-content: center;
             align-items: center;
             gap: 10px   ;
-
-
         }
     
         .dots{
@@ -1125,8 +1078,6 @@ html, body{
 
 
         }
-        
-
         .headline{
 
             display: flex;
@@ -1176,7 +1127,11 @@ html, body{
           align-items: center;
           flex-direction: column;
         }
-
+        @media (max-width: 1399px){
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+        }
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 25px;
@@ -1205,15 +1160,8 @@ html, body{
                     width: 100%;
                     height: auto;
                 }
-              
             }
-    
-
-
-
-
               .date-box{
-            
                 position: absolute;
                 top: 10px;
                 left: 10px; 
@@ -1221,17 +1169,12 @@ html, body{
                 padding: 10px; 
                 width: 50px;
                 height: 80px;
-               
+            
              }
 
 
 
         }
-           
-            
-            
-            
-
      }
 
     }
@@ -1260,6 +1203,12 @@ html, body{
         @media (max-width: 426px){
             display: block;
             padding: 0px;
+                     
+          
+        }
+        @media (max-width: 630px){
+            display: flex;
+            flex-direction: column;
                      
           
         }
@@ -1340,13 +1289,11 @@ footer{
         padding-top: 100px;
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
-        @media (max-width: 425px){
+        @media (max-width: 767px){
             display: flex;  
             flex-direction: column;
             align-items: center;
-          
         }
-
        } 
       .footer-logo{
             color: #DAD9D3;
@@ -1354,10 +1301,7 @@ footer{
                 .logo-text{
                     padding-top: 20px;
                 }
-        
         }
-
-
      .nav-wrapper{
          
             .nav-title{
@@ -1367,29 +1311,16 @@ footer{
                 font-weight: bold;
                 padding-bottom: 25px;
             }
-
-           
-
             .nav-items{
                 display: flex;
                 flex-direction: column;
-              
-                
-    
                     a{
                         margin-bottom: 15px;
                         text-decoration: none;
                         color: #DAD9D3;
                     }
             }
-
-
-
-
         }
-
-
-
     }
 }
 
@@ -1417,17 +1348,10 @@ footer{
                 padding: 10px;
 
             }
-
-
-
         }
-
     }
 
 }
-
- 
-
 // contacts.html css
 .header-contacts{
     background-color: #f0efe9;
@@ -1545,6 +1469,9 @@ footer{
     position: relative;
     .connect-lines{
         position: absolute;
+        @media (max-width: 768px){
+            display: none;
+        }
     }
     .container{
         padding-bottom: 70px;
@@ -1558,6 +1485,7 @@ footer{
                 display: flex;
                 gap: 20px;
                 justify-content: center;
+   
             }
         }
             
@@ -1566,15 +1494,30 @@ footer{
 }
        
 .info-cards{
-
+    @media (max-width: 374px){
+        p{
+            font-size: 12px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        i{
+            display: none;
+        }
+        border: none;
+    } 
     .container{
            padding-top: 100px;
          
         .cards{
-            
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 20px; 
+            @media (max-width: 1199px){
+                display: flex;
+                flex-direction: column;
+            } 
+
             .visit{ 
                 border: solid #DAD9D3 1px;
                 display: flex;
@@ -1595,6 +1538,8 @@ footer{
                             margin-bottom: 0px;
                         }
                 }
+
+   
             }
             .call{
                 display: flex;
@@ -1653,6 +1598,9 @@ footer{
         padding: 70px;
         padding-bottom: 120px;
         background-color: #f0efe9;
+        @media (max-width: 440px){
+            padding: 5px;
+        } 
         
         .message-box{
             
@@ -1661,6 +1609,13 @@ footer{
                 justify-content: center;
                 padding-top: 100px;
                 margin-bottom: 25px;
+                h2{
+                  @media (max-width: 600px){
+      
+                    font-size: 20px;
+                  } 
+                }
+           
 
             }
         
@@ -1686,11 +1641,10 @@ footer{
                         border-radius: 20px;
                         border: none;
                     }
-
                 }
 
                 .message-bar{
-                   
+                
                     input{
                         padding: 15px;
                         padding-bottom: 100px;
@@ -1702,7 +1656,6 @@ footer{
 }
                 }   
             }
-
             .send-btn{
                 padding-top: 55px;
                 display: block;
@@ -1722,7 +1675,7 @@ footer{
 .map{
     padding-top: 100px;
     .map-img{
-        
+     
         img{
             width: 100%;
         }
