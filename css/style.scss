@@ -325,6 +325,7 @@ html, body{
                   display: none;          
 
             }        
+ 
             h2{
                 font-size: 45px;
                 font-weight: bold;
@@ -361,6 +362,10 @@ html, body{
             @media (max-width: 425px) {
                 padding: 0px;
              }
+             @media (max-width: 280px){
+                display: grid;
+                grid-template-columns: 1fr;
+            }
             .advice-text{
               h3{
                 font-family: 'DM Sans', sans-serif;
@@ -734,10 +739,13 @@ html, body{
                                     
                                 .icon{
                                 margin-right: 15px;
-                                border: 1px #666666 solid;
+                                border: 1px #DAD9D3 solid;
                                 border-radius: 60%;
-                                padding: 10px;
-                                font-size: 20px;
+                                padding: 15px;
+                                
+                                    i{
+                                        font-size: 25px;
+                                    }
                                 }
 
                                 .text-box{
@@ -1295,9 +1303,10 @@ footer{
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
         @media (max-width: 767px){
-            display: flex;  
-            flex-direction: column;
-            align-items: center;
+            
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
         }
        } 
       .footer-logo{
@@ -1306,9 +1315,21 @@ footer{
                 .logo-text{
                     padding-top: 20px;
                 }
+                @media (max-width: 767px){
+                    margin: 0px;
+                   text-align: center;
+                }
         }
      .nav-wrapper{
-         
+        @media (max-width: 767px){
+            padding-bottom: 20px;
+            padding-right: 20px;
+             ul{
+                margin: 0px;
+                padding: 0px;
+             }
+            
+        }
             .nav-title{
                 color: white;
                 font-size: 22px;
@@ -1351,7 +1372,9 @@ footer{
                 text-decoration: none;
                 color: white;
                 padding: 10px;
-
+                @media (max-width: 280px){
+                    display: none;
+                }
             }
         }
     }
@@ -1683,9 +1706,10 @@ footer{
 .map{
     padding-top: 100px;
     .map-img{
-     
-        img{
+     display: flex;
+        iframe{
             width: 100%;
+          
         }
     }
 

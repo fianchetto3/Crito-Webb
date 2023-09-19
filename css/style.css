@@ -332,6 +332,12 @@ html h3, body h3 {
     padding: 0px;
   }
 }
+@media (max-width: 280px) {
+  .showcase-features .container .Advice-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 .showcase-features .container .Advice-container .advice-text h3 {
   font-family: "DM Sans", sans-serif;
   font-size: 22px;
@@ -664,10 +670,12 @@ html h3, body h3 {
 }
 .choose-us .container .reasons .reasons-child .icon {
   margin-right: 15px;
-  border: 1px #666666 solid;
+  border: 1px #DAD9D3 solid;
   border-radius: 60%;
-  padding: 10px;
-  font-size: 20px;
+  padding: 15px;
+}
+.choose-us .container .reasons .reasons-child .icon i {
+  font-size: 25px;
 }
 .choose-us .container .reasons .reasons-child .text-box {
   display: flex;
@@ -1085,9 +1093,9 @@ footer .container .nav-container {
 }
 @media (max-width: 767px) {
   footer .container .nav-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 }
 footer .container .footer-logo {
@@ -1096,6 +1104,22 @@ footer .container .footer-logo {
 }
 footer .container .footer-logo .logo-text {
   padding-top: 20px;
+}
+@media (max-width: 767px) {
+  footer .container .footer-logo {
+    margin: 0px;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  footer .container .nav-wrapper {
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  footer .container .nav-wrapper ul {
+    margin: 0px;
+    padding: 0px;
+  }
 }
 footer .container .nav-wrapper .nav-title {
   color: white;
@@ -1131,6 +1155,11 @@ footer .container .nav-wrapper .nav-items a {
   text-decoration: none;
   color: white;
   padding: 10px;
+}
+@media (max-width: 280px) {
+  .bottom-footer .container .footer-social-media a {
+    display: none;
+  }
 }
 
 .header-contacts {
@@ -1398,6 +1427,9 @@ footer .container .nav-wrapper .nav-items a {
 .map {
   padding-top: 100px;
 }
-.map .map-img img {
+.map .map-img {
+  display: flex;
+}
+.map .map-img iframe {
   width: 100%;
 }
