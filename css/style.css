@@ -845,6 +845,12 @@ html h3, body h3 {
   text-decoration: none;
   padding-bottom: 50px;
 }
+@media (max-width: 425px) {
+  .testimonial .container .review-button a {
+    padding: none;
+    margin-top: 15px;
+  }
+}
 .testimonial .container .headline {
   padding-top: 100px;
   text-align: center;
@@ -920,6 +926,12 @@ html h3, body h3 {
   align-items: center;
   padding-bottom: 70px;
 }
+@media (max-width: 995px) {
+  .article-news .container .headline {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .article-news .container .headline .title h3 {
   color: #F94D1C;
   font-size: 18px;
@@ -936,7 +948,6 @@ html h3, body h3 {
 @media (max-width: 425px) {
   .article-news .container .headline .browse-team a button {
     padding: 10px 20px;
-    border: none;
   }
 }
 .article-news .container .article-grid-news {
@@ -944,18 +955,12 @@ html h3, body h3 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
 }
-@media (max-width: 1024px) {
-  .article-news .container .article-grid-news {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-}
 @media (max-width: 1399px) {
   .article-news .container .article-grid-news {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 }
 .article-news .container .article-grid-news .article-text {
@@ -976,6 +981,12 @@ html h3, body h3 {
 .article-news .container .article-grid-news .article-image {
   position: relative;
   display: inline-block;
+}
+@media (max-width: 995px) {
+  .article-news .container .article-grid-news .article-image {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media (max-width: 425px) {
   .article-news .container .article-grid-news .article-image img {
@@ -1282,16 +1293,13 @@ footer .container .nav-wrapper .nav-items a {
 
 @media (max-width: 374px) {
   .info-cards {
-    border: none;
+    text-align: center;
   }
   .info-cards p {
     font-size: 12px;
   }
   .info-cards h3 {
     font-size: 20px;
-  }
-  .info-cards i {
-    display: none;
   }
 }
 .info-cards .container {
@@ -1318,13 +1326,19 @@ footer .container .nav-wrapper .nav-items a {
   margin-top: 10px;
 }
 .info-cards .container .cards .visit .headline i {
-  font-size: 35px;
+  font-size: 30px;
 }
 .info-cards .container .cards .visit .text {
   margin-left: 15px;
 }
 .info-cards .container .cards .visit .text p {
   margin-bottom: 0px;
+}
+@media (max-width: 374px) {
+  .info-cards .container .cards .visit {
+    text-align: center;
+    padding: 45px 45px;
+  }
 }
 .info-cards .container .cards .call {
   display: flex;
@@ -1344,6 +1358,12 @@ footer .container .nav-wrapper .nav-items a {
 .info-cards .container .cards .call .text p {
   margin-bottom: 0px;
 }
+@media (max-width: 374px) {
+  .info-cards .container .cards .call {
+    text-align: center;
+    padding: 45px 45px;
+  }
+}
 .info-cards .container .cards .email {
   display: flex;
   border: solid #DAD9D3 1px;
@@ -1361,6 +1381,12 @@ footer .container .nav-wrapper .nav-items a {
 }
 .info-cards .container .cards .email .text p {
   margin-bottom: 0px;
+}
+@media (max-width: 374px) {
+  .info-cards .container .cards .email {
+    text-align: center;
+    padding: 45px 45px;
+  }
 }
 
 .message-us {
